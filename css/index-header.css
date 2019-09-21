@@ -39,7 +39,7 @@ nav div a {
     display: inline-block;
     list-style: none;
     font-weight: 300;
-    font-size: 13.5px;
+    font-size: 14px;
     padding-left:30px;
     padding-right: 30px;  
 }
@@ -48,13 +48,17 @@ nav div a {
     margin-right: auto;
     text-decoration: none;
     color: #f8f8f8;
-    transition-duration: .5s;
+    transition-duration: .3s;
 }
 
 .nav-link:hover {
-    color: #d6d6d6;
+    color: #c7c7c7;
 }
 
 nav div ul {
     margin-left: auto;
+}
+
+.oculto {
+    display: none;
 }
