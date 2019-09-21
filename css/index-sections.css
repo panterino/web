@@ -1,3 +1,16 @@
+@media only screen and (max-width: 700px) {
+    .tarjeta_contenedor{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        text-align-last: center;
+        box-sizing: inherit;
+        text-align: justify;
+    }
+}
+
+
 .container {
     max-width: 1065px;
     margin: 0 auto;
@@ -10,7 +23,6 @@
 }
 
 .center {
-    display: block;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -26,7 +38,7 @@
     background-color: rgb(22, 22, 22);
     color: #f8f8f8;
     font-size: 22px;
-    height: 93vh;
+    height: 100vh;
 }
 
 .btn {
@@ -52,4 +64,39 @@
     margin-left: -15px;
     font-size: 30px;
     color: #6bd;
+}
+
+.separador {
+    margin: 300px 0 30px 0;
+}
+
+.titulo_seccion {
+    font-size: 30px;
+    
+}
+
+.tarjeta {
+    display: inline-block;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
+    max-width: 1065px;
+    padding: 40px 50px 40px 50px;
+    
+}
+
+.tarjeta_contenedor {
+    display: flex;
+    flex-direction: row;
+}
+
+.tarjeta_titulo {
+    margin: 0 auto;
+}
+
+.tarjeta_img {
+    height: 250px;
+    margin: 0px 40px 30px 20px;
+}
+
+.tarjeta_contenido {
+    margin: auto;
 }

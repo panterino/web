@@ -14,6 +14,8 @@ nav {
     color:#f8f8f8;
     background-color: rgba(0,0,0,0.8);
     backdrop-filter: blur(20px);
+    position: fixed;
+    width: 100%;
 }
 
 nav > div {
@@ -47,8 +49,6 @@ nav div a {
     text-decoration: none;
     color: #f8f8f8;
     transition-duration: .5s;
-    
-    
 }
 
 .nav-link:hover {
