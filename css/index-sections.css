@@ -1,4 +1,5 @@
 @media only screen and (max-width: 700px) {
+
     .tarjeta_contenedor{
         flex-wrap: wrap;
         justify-content: center;
@@ -8,13 +9,36 @@
         box-sizing: inherit;
         text-align: justify;
     }
+
+    .img-intro {
+        margin: 0 0 15px 50px !important;
+    }
+
+    .tarjeta_img {
+        margin-left: 60px !important;
+        height: 200px !important;
+    }
+
+    .tarjeta {
+        padding: 18px !important;
+    }
+    #intro {
+        font-size: 19px !important;
+        text-align-last: center;
+        box-sizing: inherit;
+        text-align: justify;
+    }
+    #lema {
+        width: 95%;
+    }
 }
 
 
 .container {
     max-width: 1065px;
     margin: 0 auto;
-    padding: 0 30px 0 30px;
+    padding: 0 10px 0 10px;
+    
 }
 
 .img-intro {
@@ -39,6 +63,7 @@
     color: #f8f8f8;
     font-size: 22px;
     height: 100vh;
+    
 }
 
 .btn {
@@ -67,7 +92,11 @@
 }
 
 .separador {
-    margin: 300px 0 30px 0;
+    margin: 20px 0 20px 0;
+}
+
+.muteado {
+    color: #777777;
 }
 
 .titulo_seccion {
@@ -77,9 +106,10 @@
 
 .tarjeta {
     display: inline-block;
-    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 20px;
     max-width: 1065px;
-    padding: 40px 50px 40px 50px;
+    padding: 20px 50px 20px 50px;
     
 }
 
@@ -100,3 +130,4 @@
 .tarjeta_contenido {
     margin: auto;
 }
+

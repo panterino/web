@@ -12,10 +12,11 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav id="nav">
             <div>
+                <a href="#" id="nav-menu" onclick="menubutton()"><span></span>
                 <a href="#">Panterino</a>
-                <ul>
+                <ul id="items-menu">
                     <li class="nav-item">
                         <a href="#" class="nav-link">
                             <span>Inicio</span>
@@ -26,7 +27,12 @@
                             <span>Jaguar</span>
                         </a>
                     </li>
-                    <li class="nav-item oculto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <span>Contacto</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
                         <a href="#" class="nav-link">
                             <span>Donar</span>
                         </a>
@@ -44,7 +50,7 @@
         <div class="container" >
             <div class="center">
                 <img src="img/panterino-logo.png" class="img-intro">
-                <span>Una organización que promueve la creación y uso de software de código abierto.</span>
+                <span id="lema">Una organización que promueve la creación y uso de software de código abierto.</span>
             </div>
             <div class="center">
                 <a class="btn-link" href="#Acerca_de" id="btnleermas">
@@ -67,7 +73,7 @@
                         <p>
                             Somos una organización que promueve, crear y da a conocer proyectos de código abierto que son de gran utilidad para el público al que van dirigidos.
                         </p>
-                        <p>
+                        <p class="muteado">
                             "De la comunidad para la comunidad". 
                         </p>
                     </div>
@@ -90,5 +96,6 @@
             </div>
         </div>
     </section>
+    <script src="js/index.js"></script>
 </body>
 </html>
