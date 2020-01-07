@@ -68,3 +68,14 @@
 .m-b-4 {
   margin-bottom: 40px;
 }
+
+.not-found {
+ font-size: 30px;
+ height: 70vh;
+ 
+}
+
+.not-found h2 {
+  color: rgb(58, 58, 58);
+  font-weight: 100;
+}
