@@ -6,7 +6,7 @@ class Contribuir extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <h2>
+                <h2 className="flex not-found">
                     Contribuir
                 </h2>
             </React.Fragment>

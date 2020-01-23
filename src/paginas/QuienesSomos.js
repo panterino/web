@@ -5,7 +5,7 @@ class QuienesSomos extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <section className="container p-t-4" id="QuienesSomos">
+                <section className="container p-t-4" id='QuienesSomos'>
                 <h2 className="center title-section m-b-1">Quiénes somos</h2>
                     <div className="card">
                         <div className="card-image">

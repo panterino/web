@@ -1,8 +1,10 @@
 import React from 'react'
+import { HashLink as Link } from "react-router-hash-link";
 import './Inicio.css'
 import QuienesSomos from "./QuienesSomos"
 
 class Inicio extends React.Component {
+    
     render() {
         return (
             <React.Fragment>
@@ -17,7 +19,7 @@ class Inicio extends React.Component {
                             <h2>Una organización que promueve la creación y uso de software de código abierto.</h2>
                         </div>
                         <div>
-                            <a href="#QuienesSomos">Leer más</a><span className="a-span">›</span>
+                            <Link to='/#QuienesSomos'>Leer más</Link><span className="a-span">›</span>
                         </div>
                     </div>
                 </div>

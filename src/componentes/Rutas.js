@@ -12,6 +12,7 @@ const Rutas = () => (
         <Route path="/contribuir" component={Contribuir} />
         <Route component={() => (<div className="flex not-found"><h2>Error 404, página no encontrada</h2> </div>)} />
       </Switch>
+      
 )
 
 export default Rutas;
